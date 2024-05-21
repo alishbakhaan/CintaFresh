@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="At Cinta, we take pride in using traditional methods and high-quality ingredients to create our delicious Palada Payasam. Each batch is carefully crafted to ensure an authentic and flavorful experience for our customers." />
+
+  <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+  <link rel="stylesheet" href="/style.css" />
+
+  <script defer type="module" src="/index.js"></script>
+
+  <title>Cinta fresh</title>
+</head>
+
+<body>
+  <!-- Top navbar -->
+  <header class="snap-start bg-orange-50 px-6 py-4">
+    <div class="mx-auto flex max-w-screen-xl items-center justify-between gap-2">
+      <div class="flex gap-4 items-center">
+        <img src="/logo.svg" class="shrink-0 w-12" alt="Logo of Cinta fresh" />
+        <img src="/logo2.svg" class="shrink-0" alt="Logo of Cinta fresh" />
+      </div>
+
+      <nav id="navbar"
+        class="transition-transform ease-in max-lg:fixed max-lg:inset-0 max-lg:-translate-x-full max-lg:bg-white/80 max-lg:backdrop-blur-sm max-lg:h-full max-lg:w-full z-50">
+        <ul
+          class="flex max-h-full gap-8 font-medium text-lg max-lg:w-full max-lg:flex-col max-lg:items-center max-lg:justify-center max-lg:px-4 max-lg:py-8 [&_a:hover]:text-[#ebb9a7] [&_a]:transition-colors">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Where to buy</a></li>
+          <li><a href="#">Rewards</a></li>
+          <li><a href="#">Franchise</a></li>
+
+          <button id="close-navbar-btn" class="absolute left-4 top-4 size-10 lg:hidden *:size-10">
+            <svg>
+              <use href="/icons.svg#close-outline"></use>
+            </svg>
+          </button>
+        </ul>
+      </nav>
+
+      <a href="#" class="text-lg font-medium rounded-md bg-black p-3 text-orange-50 transition-colors hover:bg-black/80 max-lg:hidden">
+        Contact us
+      </a>
+
+      <button id="open-navbar-btn" class="size-10 lg:hidden *:size-10">
+        <svg>
+          <use href="/icons.svg#menu-outline"></use>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 2 -->
+    <section class="py-6 px-6 bg-orange-50 mt-20">
+      <div class="max-w-screen-xl mx-auto grid grid-cols-2 max-md:grid-cols-1 justify-items-center gap-4 min-h-[500px]">
+        <div class="flex flex-col h-full justify-center gap-6 py-10 max-lg:text-sm">
+          <p class="text-5xl font-semibold leading-snug max-lg:text-4xl max-sm:text-3xl">
+            Delighting Customers, <br />
+            One <span class="italic [-webkit-text-stroke:1px_black] font-black text-orange-50">Spoonful</span> at a Time
+          </p>
+
+          <p class="text-lg">
+            It's a delightful and creamy South Asian dessert made with <br />
+            ingredients like rice, milk, sugar
+          </p>
+
+          <a href="#" class="text-lg max-w-max px-4 py-2 font-bold tracking-wider bg-orange-200 rounded-xl uppercase">
+            See more
+          </a>
+        </div>
+
+        <div class="relative min-h-[500px] w-full overflow-hidden">
+          <img class="h-[500px] max-sm:h-96 absolute top-0 left-1/2 -translate-x-1/2 rotate-[35deg]"
+            src="/img/bottle.jpg" alt="Image of a Palada Payasam bottle" />
+          <img class="h-[500px] max-sm:h-96 absolute top-0 left-1/2 -translate-x-1/2" src="/img/bottle.jpg" alt="Image of a Palada Payasam bottle" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3 -->
+
+    <section id="section3" class="py-6 px-6 bg-orange-50 mt-24">
+      <div class="max-w-screen-xl mx-auto grid grid-cols-2 max-md:grid-cols-1 justify-items-center gap-x-4 gap-y-20 min-h-[500px] overflow-hidden">
+        <div id="section3-img" class="mx-auto">
+          <img loading="lazy" src="/img/bottle.jpg" class="h-[500px] max-sm:h-96" alt="Image of a Palada Payasam bottle" />
+        </div>
+
+        <div id="section3-text-box" class="flex flex-col gap-10 max-w-96">
+          <p class="text-3xl tracking-widest">#1 MOST LOVED</p>
+
+          <h2 class="text-5xl font-black tracking-wide max-md:text-4xl">
+            PALADA
+            <br />
+            PAYASAM
+          </h2>
+
+          <p class="text-lg text-justify">
+            Palada Payasam is a creamy South Indian rice pudding, made with thin
+            rice flakes, milk, sugar, and aromatic spices. It's a beloved
+            dessert for special occasions in Kerala.
+          </p>
+
+          <p class="flex gap-4 text-2xl tracking-wider">
+            <span>AED</span>
+            <span class="font-bold">10</span>
+          </p>
+
+          <button class="text-lg max-w-max px-4 py-2 font-bold tracking-wider bg-orange-200 rounded-xl uppercase">
+            Order now
+          </button>
+        </div>
+
+        <div class="col-span-full flex gap-4 justify-center items-center w-full max-w-screen-sm mx-auto">
+          <button class="size-12 max-sm:size-8 *:size-12 max-sm:*:size-8">
+            <svg>
+              <use href="/icons.svg#caret-back-outline"></use>
+            </svg>
+          </button>
+
+          <div class="flex gap-6 *:object-cover snap-x snap-mandatory overflow-x-auto">
+            <img loading="lazy" src="/img/day1.webp"
+              class="snap-center snap-always shrink-0 max-w-full aspect-square w-24 max-sm:w-16" />
+            <img loading="lazy" src="/img/day2.webp"
+              class="snap-center snap-always shrink-0 max-w-full aspect-square w-24 max-sm:w-16" />
+            <img loading="lazy" src="/img/day5.webp"
+              class="snap-center snap-always shrink-0 max-w-full aspect-square w-24 max-sm:w-16" />
+            <img loading="lazy" src="/img/day6.webp"
+              class="snap-center snap-always shrink-0 max-w-full aspect-square w-24 max-sm:w-16" />
+          </div>
+
+          <button class="size-12 max-sm:size-8 *:size-12 max-sm:*:size-8">
+            <svg>
+              <use href="/icons.svg#caret-forward-outline"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 1 -->
+
+    <section id="section1" class="bg-orange-50 py-8 px-6 mt-24">
+      <div class="w-full max-w-screen-xl mx-auto grid grid-cols-[2fr_1fr_1fr] gap-12 max-md:grid-cols-2 max-md:gap-6 max-sm:gap-4 overflow-hidden">
+        <div class="flex flex-col h-full justify-center gap-6 max-md:col-span-full py-10 max-lg:text-sm">
+          <h1 class="text-5xl font-black leading-snug max-lg:text-4xl max-sm:text-3xl">
+            Indulge in the
+            <br />
+            irresistable flavors of
+            <br />
+            Palada Payasam
+          </h1>
+
+          <p class="text-lg font-medium">
+            Experience the rich and creamy delight of this traditional South
+            Indian dessert.
+          </p>
+
+          <div class="flex text-lg font-medium gap-3 self-start">
+            <a href="#" class="p-3 text-orange-50 bg-black hover:bg-black/80 transition-colors rounded-md">
+              Learn More
+            </a>
+            <a href="#" class="p-3 transition-colors rounded-md border border-black">
+              Order Palada
+            </a>
+          </div>
+        </div>
+
+        <div class="max-md:w-full overflow-hidden max-h-screen">
+          <div id="section1-img-box1" class="flex flex-col gap-6 justify-between max-md:gap-2 *:object-cover">
+            <img loading="lazy" src="/img/left1.webp"
+              class="w-full rounded-b-[90px] max-lg:rounded-b-[50px] aspect-[2.13]" />
+            <img loading="lazy" src="/img/left2.webp"
+              class="w-full rounded-[90px] max-lg:rounded-[50px] aspect-[1.28]" />
+            <img loading="lazy" src="/img/left3.webp"
+              class="w-full rounded-[90px] max-lg:rounded-[50px] aspect-[0.86]" />
+          </div>
+        </div>
+
+        <div class="max-md:w-full overflow-hidden max-h-screen">
+          <div id="section1-img-box2" class="flex flex-col gap-6 justify-between max-md:gap-2 *:object-cover">
+            <img loading="lazy" src="/img/right1.webp"
+              class="w-full rounded-[90px] max-lg:rounded-[50px] aspect-[0.54]" />
+            <img loading="lazy" src="/img/left1.webp"
+              class="mt-5 w-full rounded-t-[90px] max-lg:rounded-t-[50px] aspect-[1.41]" />
+            <img loading="lazy" src="/img/left2.webp"
+              class="w-full rounded-[90px] max-lg:rounded-[50px] aspect-[1.28]" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4 -->
+
+    <section id="section4" class="py-6 px-6 bg-orange-50 mt-24">
+      <div class="max-w-screen-xl mx-auto grid grid-cols-2 max-md:grid-cols-1 items-center justify-items-center gap-x-10 gap-y-20 min-h-[500px] overflow-hidden">
+        <div id="section4-img" class="mx-auto">
+          <img loading="lazy" src="/img/icecream.webp" class="w-full aspect-square rounded-[90px] object-cover" />
+        </div>
+
+        <div id="section4-text-box" class="flex flex-col gap-10">
+          <h2 class="text-4xl tracking-wide max-sm:text-3xl font-bold">
+            Experience the Authenticity of Our Palada Payasam
+          </h2>
+
+          <p class="text-lg font-medium">
+            At Cinta, we take pride in using traditional methods and
+            high-quality ingredients to create our delicious Palada Payasam.
+            Each batch is carefully crafted to ensure an authentic and
+            flavorful experience for our customers.
+          </p>
+
+          <div class="grid grid-cols-2 items-start gap-6 font-medium">
+            <div>
+              <h3 class="text-lg font-bold max-sm:text-base">Traditional Methods</h3>
+              <p class="mt-2 max-sm:text-sm">
+                We use traditional cooking techniques and time-honored
+                recipes to create our Palada Payasam.
+              </p>
+            </div>
+
+            <div>
+              <h3 class="text-lg font-bold max-sm:text-base">Quality Ingredients</h3>
+              <p class="mt-2 max-sm:text-sm">
+                We source only the finest ingredients to ensure the highest
+                quality in every bite.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5 -->
+
+    <section id="section5" class="py-6 px-6 bg-orange-50 mt-24">
+      <div class="max-w-screen-2xl mx-auto">
+        <h2 class="text-5xl font-bold tracking-wide text-center max-sm:text-4xl">
+          Palada Payasam
+        </h2>
+        <p class="mt-6 font-medium text-center max-sm:text-base">
+          Explore our mouthwatering Palada Payasam images and indulge
+        </p>
+        <div class="mt-16 grid grid-cols-3 gap-x-6 max-md:gap-x-3 max-sm:gap-x-1">
+          <div class="h-[680px] overflow-hidden">
+            <div id="section5-img-box1"
+              class="flex flex-col gap-6 transition-transform *:h-[680px] *:object-cover *:w-full max-sm:gap-1">
+              <img loading="lazy" src="/img/gallery1.webp" />
+              <img loading="lazy" src="/img/gallery2.webp" />
+              <img loading="lazy" src="/img/gallery3.webp" />
+            </div>
+          </div>
+          <div class="h-[680px] overflow-hidden">
+            <div id="section5-img-box2"
+              class="flex flex-col gap-6 transition-transform *:h-[680px] *:object-cover *:w-full max-sm:gap-1">
+              <img loading="lazy" src="/img/gallery4.webp" />
+              <img loading="lazy" src="/img/gallery5.webp" />
+              <img loading="lazy" src="/img/gallery6.webp" />
+            </div>
+          </div>
+          <div class="h-[680px] overflow-hidden">
+            <div id="section5-img-box3"
+              class="flex flex-col gap-6 transition-transform *:h-[680px] *:object-cover *:w-full max-sm:gap-1">
+              <img loading="lazy" src="/img/gallery7.webp" />
+              <img loading="lazy" src="/img/gallery8.webp" />
+              <img loading="lazy" src="/img/gallery9.webp" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6 -->
+
+    <section id="section6" class="py-6 px-6 bg-orange-50 mt-24">
+      <div class="max-w-screen-xl mx-auto">
+        <h2 class="text-5xl font-bold tracking-wide max-sm:text-4xl">
+          The Cinta Outlets
+        </h2>
+
+        <div class="mt-6 flex gap-4 justify-between items-center w-full">
+          <p class="text-2xl max-sm:text-lg basis-1/2">
+            Palada Payasam is simply divine! The authentic flavors and creamy
+            texture are unmatched
+          </p>
+
+          <a href="#" class="flex items-center justify-between gap-2 shrink-0">
+            <span class="text-2xl shrink-0 max-sm:text-base">See all</span>
+
+            <span class="size-6 max-sm:size-4 *:size-6 max-sm:*:size-4">
+              <svg>
+                <use href="/icons.svg#open-outline"></use>
+              </svg>
+            </span>
+          </a>
+        </div>
+
+        <div class="overflow-hidden relative mt-16">
+          <div id="section6-img-grid" class="grid grid-cols-4 gap-2 h-full min-h-[600px] max-sm:min-h-64">
+            <div class="section6-img col-span-full aspect-video rounded-[40px] max-lg:rounded-3xl max-md:rounded-xl overflow-hidden">
+              <img src="/img/gallery7.webp" class="object-cover" alt="Image 1">
+            </div>
+
+            <div id="" class="section6-img-col1 col-span-3 grid grid-cols-subgrid translate-x-full transition-all absolute *:aspect-video *:rounded-[40px] *:max-lg:rounded-3xl *:max-md:rounded-xl *:overflow-hidden *:object-cover">
+              <div class="section6-img">
+                <img src="/img/gallery7.webp" alt="Image 2">
+              </div>
+              <div class="section6-img">
+                <img src="/img/gallery7.webp" alt="Image 3">
+              </div>
+              <div class="section6-img">
+                <img src="/img/gallery7.webp" alt="Image 4">
+              </div>
+            </div>
+            
+            <div id="" class="section6-img-col2 row-start-2 col-span-full grid grid-cols-subgrid translate-x-full transition-all absolute *:aspect-video *:rounded-[40px] *:max-lg:rounded-3xl *:max-md:rounded-xl *:overflow-hidden *:object-cover">
+              <div class="section6-img">
+                <img src="/img/gallery7.webp" class="object-cover rounded-[40px] max-lg:rounded-3xl max-md:rounded-xl" alt="Image 2">
+              </div>
+              <div class="section6-img">
+                <img src="/img/gallery7.webp" class="object-cover rounded-[40px] max-lg:rounded-3xl max-md:rounded-xl" alt="Image 2">
+              </div>
+              <div class="section6-img">
+                <img src="/img/gallery7.webp" class="object-cover rounded-[40px] max-lg:rounded-3xl max-md:rounded-xl" alt="Image 3">
+              </div>
+              <div class="section6-img">
+                <img src="/img/gallery7.webp" class="object-cover rounded-[40px] max-lg:rounded-3xl max-md:rounded-xl" alt="Image 4">
+              </div>
+            </div>
+          </div>
+
+          <div id="section6-logo" class="absolute bottom-2 left-2 flex flex-col items-center px-12 py-6 max-sm:px-6 max-sm:py-3 bg-white rounded-[40px] w-max">
+            <img loading="lazy" src="/logo2.svg" class="w-40 max-sm:w-20 aspect-[6.25]" alt="Logo of Cinta fresh" />
+            <div class="mt-3 max-sm:text-xs max-sm:mt-1">Dubai</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7 -->
+
+    <section id="section7" class="p-6 bg-orange-50 mt-24">
+      <img src="./logo2.svg" alt="Logo" class="w-96 mx-auto max-sm:w-72" alt="Logo of Cinta fresh" />
+      <p class="text-4xl mt-4 text-center max-sm:text-2xl">Franchises</p>
+
+      <p class="mt-8 max-w-screen-sm mx-auto">
+        At Cinta, we take pride in using traditional methods and high-quality
+        ingredients to create our delicious Palada Payasam. Each batch is
+        carefully crafted to ensure an authentic and flavorful experience for
+        our customers.
+      </p>
+
+      <div id="section7-img-box-outer" class="max-w-screen-2xl mx-auto mt-12 overflow-hidden">
+        <div id="section7-img-box" class="flex gap-4 max-h-[680px] *:object-cover *:max-w-lg origin-top-left w-max animate-scroll">
+          <img src="/img/gallery7.webp" alt="" />
+          <img src="/img/gallery11.webp" alt="" />
+          <img src="/img/gallery12.webp" alt="" />
+          <img src="/img/gallery5.webp" alt="" />
+          <img src="/img/gallery10.webp" alt="" />
+          <img src="/img/gallery4.webp" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 8 -->
+
+    <section id="section8" class="p-6 bg-orange-50 mt-24">
+      <div class="max-w-screen-xl mx-auto py-10">
+        <div class="relative rounded-[90px] bg-white px-24 py-16 before:absolute before:left-0 before:top-1/2 before:size-36 before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-full before:bg-orange-50 after:absolute after:right-0 after:top-1/2 after:size-36 after:-translate-y-1/2 after:translate-x-1/2 after:rounded-full after:bg-orange-50 max-sm:before:size-24 max-sm:after:size-24 max-sm:px-20 max-sm:py-12 max-sm:rounded-[60px] overflow-hidden">
+          <div class="grid grid-cols-2 justify-items-center gap-x-12 gap-y-6 max-sm:grid-cols-1 max-sm:gap-12 min-h-80">
+            <div class="flex flex-col gap-4">
+              <h2 class="relative text-4xl font-bold tracking-wide max-sm:text-2xl max-md:text-3xl uppercase">
+                Rewards &amp; <br />Loyalty
+
+                <span class="absolute top-0 right-0 -translate-y-full size-8 *:size-8 max-sm:size-6 max-sm:*:size-6 fill-yellow-500">
+                  <svg>
+                    <use href="/icons.svg#sparkles"></use>
+                  </svg>
+                </span>
+              </h2>
+
+              <p class="text-2xl font-light max-sm:text-base max-md:text-lg max-w-screen-sm mx-auto">
+                Experience a hassle-free reward earning program.
+              </p>
+              
+              <a href="#" class="text-lg rounded-md max-w-max bg-black p-3 text-orange-50 transition-colors hover:bg-black/80 max-lg:hidden">
+                Earn Rewards
+              </a>
+            </div>
+
+            <div class="relative w-full min-h-80">
+              <img loading="lazy" src="/img/empty-bottle.png" class="h-80 w-36 absolute top-0 left-1/2 -translate-x-1/2 z-10" alt="Image of an empty bottle" />
+
+              <div id="bottle-fill-container" class="absolute bottom-8 left-1/2 -translate-x-1/2 w-24 h-40 overflow-hidden">
+                <div id="bottle-fill" class="w-full h-full">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
+                    <path fill="url(#fill-gradient)" id="bottle-fill-wave" class="animate-wave" d="M300,300V2.5c0,0-0.6-0.1-1.1-0.1c0,0-25.5-2.3-40.5-2.4c-15,0-40.6,2.4-40.6,2.4 c-12.3,1.1-30.3,1.8-31.9,1.9c-2-0.1-19.7-0.8-32-1.9c0,0-25.8-2.3-40.8-2.4c-15,0-40.8,2.4-40.8,2.4c-12.3,1.1-30.4,1.8-32,1.9 c-2-0.1-20-0.8-32.2-1.9c0,0-3.1-0.3-8.1-0.7V300H300z"/>
+
+                    <linearGradient id="fill-gradient" x1="0" x2="0" y1="0" y2="1">
+                      <stop offset="0%" stop-color="#FE971F" />
+                      <stop offset="100%" stop-color="#FF4C0C" />
+                    </linearGradient>
+                  </svg>
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 9 -->
+
+    <section class="p-6 bg-orange-50 mt-24">
+      <figure class="max-w-screen-sm mx-auto flex flex-col gap-6 items-center justify-between">
+        <div class="flex items-center justify-between gap-2 *:size-8 fill-yellow-500 text-neutral-300">
+          <svg>
+            <use href="/icons.svg#star"></use>
+          </svg>
+          <svg>
+            <use href="/icons.svg#star"></use>
+          </svg>
+          <svg>
+            <use href="/icons.svg#star"></use>
+          </svg>
+          <svg>
+            <use href="/icons.svg#star"></use>
+          </svg>
+          <svg class="fill-current">
+            <use href="/icons.svg#star"></use>
+          </svg>
+        </div>
+        
+        <blockquote class="text-2xl max-sm:text-lg font-bold tracking-wide">
+          Palada Payasam is simply divine! The authentic flavors and creamy
+          texture are unmatched. It's the perfect dessert to satisfy any sweet
+          tooth.
+        </blockquote>
+
+        <figcaption class="flex gap-4 items-center justify-center">
+          <img loading="lazy" src="/img/customer.jpeg" class="shrink-0 size-16 object-cover rounded-full " />
+
+          <div class="flex flex-col font-semibold text-sm">
+            <p>John Doe</p>
+            <p>Food Blogger, Tasty Eats</p>
+          </div>
+        </figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer class="p-6 bg-orange-50 mt-24">
+    <div class="max-w-screen-xl mx-auto">
+      <div class="flex gap-4 justify-between items-start w-full pb-12 border-b-2 border-b-black max-md:flex-col max-md:items-center">
+        <div class="flex gap-4">
+          <img loading="lazy" src="/logo.svg" alt="Logo of Cinta fresh" class="shrink-0 w-12"/>
+          <p class="text-3xl font-black">Cinta Fresh</p>
+        </div>
+
+        <ul class="flex gap-4 max-sm:text-sm font-semibold text-center self-stretch items-center max-md:self-center [&_a:hover]:text-[#ebb9a7] [&_a]:transition-colors">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        
+        <div class="flex gap-4 items-start *:size-6 [&_svg]:size-6 hover:*:text-[#ebb9a7] *:transition-colors [&_svg]:fill-current">
+          <a href="#">
+            <svg>
+              <use href="/icons.svg#facebook"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg>
+              <use href="/icons.svg#twitter"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg>
+              <use href="/icons.svg#instagram"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg>
+              <use href="/icons.svg#linkedin"></use>
+            </svg>
+          </a>
+          <a href="#">
+            <svg>
+              <use href="/icons.svg#youtube"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+      
+      <div class="flex gap-6 mt-8 max-sm:text-sm font-semibold max-w-screen-md mx-auto max-sm:flex-col items-center justify-center underline-offset-2 [&_a]:underline hover:[&_a]:decoration-transparent [&_a]:transition-colors">
+        <div>&copy; 2023 Cinta. All rights reserved.</div>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Settings</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

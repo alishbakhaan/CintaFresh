@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Satoshi-Variable';
+    src: url('/fonts/Satoshi-Variable.woff2') format('woff2');
+    font-weight: 300 900;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Satoshi-Variable';
+    src: url('/fonts/Satoshi-VariableItalic.woff2') format('woff2');
+    font-weight: 300 900;
+    font-display: swap;
+    font-style: italic;
+  }
+
+  body {
+    overflow-x: hidden;
+    color: #000;
+    background-color: theme(backgroundColor.orange.50);
+  }
+
+  ::selection {
+    color: #000;
+    background-color: theme(backgroundColor.orange.200);
+  }
+}
